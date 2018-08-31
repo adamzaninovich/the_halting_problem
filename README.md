@@ -18,7 +18,7 @@ You find the Turing machine blueprints (your puzzle input) on a tablet in a near
 - A **cursor**, which can move left or right along the tape and read or write values at its current position.
 - A set of **states**, each containing rules about what to do based on the current value under the cursor.
 
-Each slot on the tape has two possible values: `0` (the starting value for all slots) and `1`. Based on whether the cursor is pointing at a `0` or a `1`, the current state says `what value to write` at the current position of the cursor, whether to **move the cursor** left or right one slot, and **which state to use next**.
+Each slot on the tape has two possible values: `0` (the starting value for all slots) and `1`. Based on whether the cursor is pointing at a `0` or a `1`, the current state says **what value to write** at the current position of the cursor, whether to **move the cursor** left or right one slot, and **which state to use next**.
 
 For example, suppose you found the following blueprint:
 
